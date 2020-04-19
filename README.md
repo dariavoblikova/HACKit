@@ -8,18 +8,19 @@ User experience is extremely easy. Users go the website and can see several grap
     
 ### Implementation details and how cloud computing technologies were used to implement the project
 We made a Node.js web application using the Express framework.
-We have creating a Node.js server on AWS for our web app.
+We have created a Node.js server on AWS for our web app.
 To get the data from Wikipedia we used Wikipedia API.
 TO draw the charts we used Highcharts.
     
 ### Issues encountered, bugs fixed or still present, and future work to be done
-We have encountered many issues during the project. We have a team of three people all working on different OSs and so inevitably we had issues related to that. We decided to make our project a web app, having no teammember with web development experience. One fun (and sad) lesson learned from this: never debug a web app with an ad blocker activated! 😬
+We have encountered many issues during the project. We have a team of three people all working on different OSs and so inevitably we had issues related to that. We decided to make our project a web app, having no teammember with web development experience. One fun (and sad) lesson learned from working on the project: never debug a web app with an ad blocker activated!
+* Sometimes, you need to refresh a page a couple of times to get all the graphs fetched.
 
 # Category 2: User Experience Example
 ### Link to live endpoint (web app)
 * [AWS link](http://ec2-18-219-148-210.us-east-2.compute.amazonaws.com:3002/)
 ### Video recording or screen recording of user interacting with the project
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+* [mov format recoding](https://drive.google.com/file/d/12W9aueYeDoyjr121Hc-2XNFh2Gxk9s3o/view)
 ### Screenshots of the UI
 ![1](https://user-images.githubusercontent.com/43226922/79698650-1da31900-823f-11ea-80dc-357b46ead524.png)
 ![2](https://user-images.githubusercontent.com/43226922/79698649-1da31900-823f-11ea-9cc2-afe5d0d5304f.png)
