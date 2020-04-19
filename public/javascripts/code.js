@@ -239,17 +239,17 @@ rp(options)
       series: [{
         name: 'Coronavirus',
         data: arrData,
-        pointStart: Date.UTC(year, month, day),
-        pointInterval: 24 * 3600 * 1000 // one day
+        pointStart: Date.UTC(year, month -1, day - 1),
+        pointInterval: 24 * 3600 * 1000 // one days
       }, {
         name: 'Spanish flu',
         data: arrData2,
-        pointStart: Date.UTC(year2, month2, day2),
+        pointStart: Date.UTC(year2, month2 -1, day2 - 1),
         pointInterval: 24 * 3600 * 1000 // one day
       },{
         name: 'Hydroxychloroquine',
         data: arrData3,
-        pointStart: Date.UTC(year3, month3, day3),
+        pointStart: Date.UTC(year3, month3 -1, day3 - 1),
         pointInterval: 24 * 3600 * 1000 // one day
       }]
     });
@@ -275,7 +275,7 @@ rp(name5)
   Highcharts.chart('container2', {
 
     title: {
-      text: 'People'
+      text: 'Wikipedia Searches of People'
     },
 
     xAxis: {
@@ -294,27 +294,29 @@ rp(name5)
     series: [{
       name: 'Boris Johnson',
       data: name1ArrData,
-      pointStart: Date.UTC(year, month, day),
+      pointStart: Date.UTC(year, month - 1, day - 1),
       pointInterval: 24 * 3600 * 1000 // one day
     }, {
       name: 'Joe Exotic',
       data: name2ArrData,
-      pointStart: Date.UTC(year2, month2, day2),
+      pointStart: Date.UTC(year2, month2 - 1, day2 - 1),
       pointInterval: 24 * 3600 * 1000 // one day
-    },{
-      name: 'Carole Baskin',
-      data: name3ArrData,
-      pointStart: Date.UTC(year3, month3, day3),
-      pointInterval: 24 * 3600 * 1000 // one day
-    }, {
+    },
+    // {
+    //   name: 'Carole Baskin',
+    //   data: name3ArrData,
+    //   pointStart: Date.UTC(year3, month3 - 1, day3 - 1),
+    //   pointInterval: 24 * 3600 * 1000 // one day
+    // }, 
+    {
       name: 'Andrew Cuomo',
       data: name4ArrData,
-      pointStart: Date.UTC(year2, month2, day2),
+      pointStart: Date.UTC(year2, month2 - 1, day2 - 1),
       pointInterval: 24 * 3600 * 1000 // one day
     }, {
       name: 'Jay Inslee',
       data: name5ArrData,
-      pointStart: Date.UTC(year2, month2, day2),
+      pointStart: Date.UTC(year2, month2 - 1, day2 - 1),
       pointInterval: 24 * 3600 * 1000 // one day
     }]
   });
@@ -374,7 +376,7 @@ rp(rand3)
     Highcharts.chart('container3', {
 
       title: {
-        text: 'Other Wikipedia Searches'
+        text: 'Miscellaneous Wikipedia Searches'
       },
 
       xAxis: {
@@ -393,17 +395,17 @@ rp(rand3)
       series: [{
         name: 'Martial law',
         data: rand1ArrData,
-        pointStart: Date.UTC(year, month, day),
+        pointStart: Date.UTC(year, month - 1, day - 1),
         pointInterval: 24 * 3600 * 1000 // one day
       }, {
         name: 'Stock market',
         data: rand2ArrData,
-        pointStart: Date.UTC(year2, month2, day2),
+        pointStart: Date.UTC(year2, month2 - 1, day2 - 1),
         pointInterval: 24 * 3600 * 1000 // one day
       },{
         name: 'Lockdown',
         data: rand3ArrData,
-        pointStart: Date.UTC(year3, month3, day3),
+        pointStart: Date.UTC(year3, month3 - 1, day3 - 1),
         pointInterval: 24 * 3600 * 1000 // one day
       }]
     });
