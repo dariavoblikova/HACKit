@@ -120,6 +120,8 @@ a {
   padding: 30px;
   border-bottom: var(--ui-shawdow-border);
   box-shadow: var(--ui-shawdow);
+  border-top: var(--ui-shawdow-border);
+  border-top-width: 15px;
 }
 
 .Message > .Title {
@@ -160,4 +162,9 @@ a {
 
   border-bottom: var(--ui-shawdow-border);
   box-shadow: var(--ui-shawdow);
+}
+
+#container {
+  height: 100%;
+  width: 100%;
 }

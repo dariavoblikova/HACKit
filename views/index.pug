@@ -1,8 +1,12 @@
 extends layout
 
+block scripts
+  script(async, defer, src="/javascripts/bundle.js")
+
 block content
   div.View
     h1.Banner #{title} presents
+    div#container
     div.Message
       div.Title
         h3 Showing the most curious

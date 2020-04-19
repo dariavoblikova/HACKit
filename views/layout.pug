@@ -1,21 +1,14 @@
-//- doctype html
-//- html
-//-   head
-//-     title= title
-//-     link(rel='stylesheet', href='/stylesheets/style.css')
-//-   body
-//-     block content
-
 block variables
 doctype html
 html
   head
-    meta(charset="utf-8")
-    link(rel="shortcut icon", href="/favicon.ico")
+    meta(charset="utf-8", http-equiv="encoding")
     meta(name="viewport", content="width=device-width, initial-scale=1, shrink-to-fit=no")
     meta(name="theme-color", content="#000000")
+    meta(http-equiv="encoding")
     title #{title} | Corona Influence
     link(rel="stylesheet" href="/stylesheets/style.css")
+    block scripts
   body
     div#root
       block content
