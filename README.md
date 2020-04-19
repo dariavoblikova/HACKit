@@ -27,6 +27,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 # Category 3: Implementation Details
 ### Screenshots of configuration steps in the cloud platform used.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+![aws](https://user-images.githubusercontent.com/43226922/79698875-b71efa80-8240-11ea-901d-b2c740b8ee3b.png)
 
 [GitHub Project Link](https://github.com/dariavoblikova/HACKit)
