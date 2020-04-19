@@ -17,7 +17,7 @@ We have encountered many issues during the project. We have a team of three peop
 
 # Category 2: User Experience Example
 ### Link to live endpoint (web app)
-[AWS link](http://ec2-18-219-148-210.us-east-2.compute.amazonaws.com/)
+* [AWS link](http://ec2-18-219-148-210.us-east-2.compute.amazonaws.com:3002/)
 ### Video recording or screen recording of user interacting with the project
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ### Screenshots of the UI
@@ -29,4 +29,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ### Screenshots of configuration steps in the cloud platform used.
 ![aws](https://user-images.githubusercontent.com/43226922/79698875-b71efa80-8240-11ea-901d-b2c740b8ee3b.png)
 
-[GitHub Project Link](https://github.com/dariavoblikova/HACKit)
+* [GitHub Project Link](https://github.com/dariavoblikova/HACKit)
